@@ -29,5 +29,6 @@ let v = document.getElementsByClassName("background-mx-video")[0].innerHTML = `<
 
 setInterval(function() {
 document.getElementsByClassName("home-screen-txt")[0].innerHTML = b[Rnd(1, b.length)-1];
+console.log("%cCREATED BY DOSX [@DOSX_PLUS]", "background-color: red; color: white; font-size: 15px;");
 }, 1300)
 function Rnd(min, max){return Math.floor(Math.random()*(max-min+1)+min)}
